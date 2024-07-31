@@ -1,0 +1,21 @@
+{
+  "name": "Automation",
+  "version": "1.0.0",
+  "description": "automation practice",
+  "main": "index.js",
+  "scripts": {
+    "testChrome": "cypress run --spec 'cypress/e2e/automation.cy.js' --browser chrome",
+    "testEdge": "cypress run --spec 'cypress/e2e/automation.cy.js' --browser edge"
+     },
+  "keywords": [
+    "automatizacion",
+    "E2E",
+    "screenplay"
+  ],
+  "author": "yeion",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1",
+    "cypress-mochawesome-reporter": "^3.8.2"
+  }
+}
